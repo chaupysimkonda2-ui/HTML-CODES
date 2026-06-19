@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            First_code
+        </title>
+        <style>
+            .container{
+                align-items: center;
+                justify-content: center;
+                display: flex;
+                background-color: transparent;
+                padding: 200px;
+                animation: float 2s ease-in-out infinite;
+            }
+            body{
+                background-image: url("chaupi.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+
+            }
+            .hit{
+                color: orange;
+            }
+            button{
+                width: 100px;
+                height: 40px;
+                border-radius: 15px;
+            }
+            button:hover{
+                background-color: blue;
+                width: 100px;
+                height: 40px;
+                border-radius: 15px;
+            }
+            @keyframes float{
+                0% {transform: translateY(0px);}
+                50% {transform: translateY(-20px);}
+                100% {transform: translateY(0px);}
+            }
+        </style>
+    </head>
+    <body>
+        <form class="container">
+                <h class="hit">
+                    <b>
+                        
+                            <h4>THANKS! TO JOIN TECH.COM</h4> We offer Tech skills<br>
+                            In Web Designing, Graphics, Online streaming,<br> for more info click button below.
+                            <br>
+                            <button onclick="openWebsite()" id="button"> NO <span style="font-size: 20px;"> &#x1F449;</span></button>
+        
+                        
+                    </b>
+                </h>
+        </form>
+        <script>
+            function openWebsite(){
+                let button = document.getElementById('button')
+                button.style.backgroundColor="green"
+
+                setTimeout(function(){
+                    window.location.href="website.html"
+                });
+            }
+        </script>
+    </body>
+</html>

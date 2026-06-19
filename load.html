@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html><head>
+    <title>
+        CHAUPY SIMKONDA
+    </title>
+    <style>
+        body{
+
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            padding: 150px;
+        }
+        h1{
+            animation: changeColor 2s infinite;
+            text-shadow: 2px 2px;
+        }
+        p{
+            animation: glow 1s infinite;
+        }
+        @keyframes changeColor{
+            0% {color: red;}
+            25% {color:blue;}
+            50% {color: green;}
+            75% {color: orange;}
+            100% {color: red;}
+        }
+
+        @keyframes glow {
+            form {
+                text-shadow: 0 0 5px whitesmoke;
+            }
+
+            to {
+                text-shadow:
+                0 0 10px blue,
+                0 0 20px blue,
+                0 0 30px blue;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <form>
+        <h1>CHAUPY TECH SERVICES</h1>
+        <p>please wait...</p>
+    </form>
+    
+    <script>
+        setTimeout(function(){
+            window.location.href ="first_1.html";
+        }, 3000);
+    </script>
+</body>
+</html>
