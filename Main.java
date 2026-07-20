@@ -1,0 +1,1 @@
+{"html":"<!DOCTYPE html>\n<html>\n<head>\n  <title>My Awesome Page</title>\n  <!-- This text appears on the browser tab -->\n</head>\n<body>\n  <h1>Welcome!</h1>\n  <p>Look at the browser tab above - it says \"My Awesome Page\"</p>\n</body>\n</html>","css":"","js":""}
